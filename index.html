@@ -1,46 +1,145 @@
-# 📦 《伊甸园》 Release v1.0.0
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Release Download</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #0d1117;
+            color: #c9d1d9;
+        }
+        .release-box {
+            border: 1px solid #30363d;
+            border-radius: 6px;
+            padding: 24px;
+            background: #161b22;
+        }
+        h1 { color: #f0f6fc; margin-top: 0; }
+        .asset {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 12px;
+            margin: 10px 0;
+            background: #21262d;
+            border-radius: 6px;
+            border: 1px solid #30363d;
+        }
+        .checkbox-wrapper {
+            margin: 20px 0;
+            padding: 12px;
+            background: rgba(187, 128, 9, 0.15);
+            border: 1px solid rgba(187, 128, 9, 0.4);
+            border-radius: 6px;
+        }
+        input[type="checkbox"] { margin-right: 8px; }
+        button {
+            padding: 6px 16px;
+            background: #238636;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        button:disabled {
+            background: #30363d;
+            color: #8b949e;
+            cursor: not-allowed;
+        }
+        a { color: #58a6ff; text-decoration: none; }
+    </style>
+</head>
+<body>
+    <div class="release-box">
+        <h1>📦 《伊甸园》 Release v1.0.0</h1>
+        <p>发布日期: 2025-03-06</p>
+        
+<div class="checkbox-wrapper">
+    <label style="display: flex; align-items: flex-start; gap: 8px;">
+        <input type="checkbox" id="agreeCheck" onchange="toggleDownload()" style="margin-top: 4px;">
+        <div>
+            <strong>⚠️ 预警：请仔细阅读以下内容</strong>
+		<div style="margin-top: 8px; font-size: 16px; line-height: 1.6; background: rgba(0,0,0,0.2); padding: 10px; border-radius: 4px;">
+ 本游戏为《苏丹的游戏》同人，CP属性为阿尔图x奈费勒。由于贡献者众多、且大家的个性迥异，游玩过程中可能会出现风格突变的情况。<br><br>
 
-**发布日期:** 2025-03-06
+目前共有一条共通（初始世界）线路、6条异世界线路，每条路线的预警如下：<br><br>
 
----
+共通线：奈费勒性转、spanking、痴女、媚宅、漏尿、bdsm、水煎；<br><br>
 
-## ⚠️ 下载前请仔细阅读
-
-<summary><b>🔴 点击展开：内容预警（必须阅读）</b></summary>
-
-> **本游戏为《苏丹的游戏》同人，CP属性为阿尔图x奈费勒。**  
-> 由于贡献者众多、且大家的个性迥异，游玩过程中可能会出现风格突变的情况。
-
-目前共有一条共通（初始世界）线路、6条异世界线路，每条路线的预警如下：
-
-| 线路 | 预警内容 |
-|------|---------|
-| **共通线** | 奈费勒性转、spanking、痴女、媚宅、漏尿、bdsm、水煎 |
-| **1.421683世界线** | （以下皆包含NTR）无其他预警 |
-| **6.173823世界线** | 未完结 |
-| **6.971068世界线** | 壁尻、龙塑、凝攻、dom0sub1、放置、鞭打、恋痛 |
-| **7.896532世界线** | 人外、男性奈费勒 |
-| **8.207225世界线** | 触手、窒息、产卵、苗床化 |
-| **9.309318世界线** | 双性转百合、鞭打、玩具、机械奸、恶俗、恋足、痴女 |
-| **隐藏世界线** | 雌堕 |
+（以下异世界皆包含NTR） <br>
+1.421683世界线：无；<br>
+6.173823世界线：未完结；<br>
+6.971068世界线：壁尻、龙塑、凝攻、dom0sub1、放置、鞭打、恋痛；<br>
+7.896532世界线：人外、男性奈费勒；<br>
+8.207225世界线：触手、窒息、产卵、苗床化；<br>
+9.309318世界线：双性转百合、鞭打、玩具、机械奸、恶俗、恋足、痴女；<br>
+隐藏世界线：雌堕；<br>
+            </div>
 
 
----
 
-## 📥 下载链接
+        </div>
+    </label>
+</div>
+        <div class="asset">
+            <div>
+                <span class="version-icon">🍎</span>
+                <strong>Mac 版本</strong> 
+            </div>
+            <button class="download-btn" disabled onclick="downloadFile('mac')">
+                下载
+            </button>
+        </div>
 
-<details>
-<summary><b>✅ 我已阅读并理解上述预警 - 显示下载链接</b></summary>
+        <div class="asset">
+            <div>
+                <span class="version-icon">🪟</span>
+                <strong>Windows 版本</strong> 
+            </div>
+            <button class="download-btn" disabled onclick="downloadFile('win')">
+                下载
+            </button>
+        </div>
 
-### 🍎 Mac 版本
-[下载 eden-2.0_20260306-mac.zip](https://github.com/limoer2999/eden_release/releases/download/v1.0.0/eden-2.0_20260306-mac.zip)
+        <div class="asset">
+            <div>
+                <span class="version-icon">🤖</span>
+                <strong>Android 版本</strong> 
+            </div>
+            <button class="download-btn" disabled onclick="downloadFile('android')">
+                下载
+            </button>
+        </div>
+    </div>
 
-### 🪟 Windows 版本
-[下载 eden-2.0_20260306-win.zip](https://github.com/limoer2999/eden_release/releases/download/v1.0.0/eden-2.0_20260306-win.zip)
+    <script>
+        // 下载链接配置
+        const downloadLinks = {
+            mac: 'https://github.com/limoer2999/eden_release/releases/download/v1.0.0/eden-2.0_20260306-mac.zip',
+            win: 'https://github.com/limoer2999/eden_release/releases/download/v1.0.0/eden-2.0_20260306-win.zip',
+            android: 'https://github.com/limoer2999/eden_release/releases/download/v1.0.0/com.arzu_nawfal.eden-20260306-release.apk'
+        };
 
-### 🤖 Android 版本
-[下载 com.arzu_nawfal.eden-20260306-release.apk](https://github.com/limoer2999/eden_release/releases/download/v1.0.0/com.arzu_nawfal.eden-20260306-release.apk)
+        function toggleDownload() {
+            const checked = document.getElementById('agreeCheck').checked;
+            // 批量启用/禁用所有下载按钮
+            document.querySelectorAll('.download-btn').forEach(btn => {
+                btn.disabled = !checked;
+            });
+        }
 
-</details>
-
----
+        function downloadFile(platform) {
+            const url = downloadLinks[platform];
+            if (url) {
+                window.location.href = url;
+            }
+        }
+    </script>
+</body>
+</html>
